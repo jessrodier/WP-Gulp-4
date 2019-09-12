@@ -42,7 +42,7 @@ function browser_sync(done) {
   watch(styles.src, series(build_sass, reload));
   watch(styleImports.src, series(build_sass, reload));
   watch(scripts.src, series(build_js, reload));
-  watch(main.src, series(reload));
+  watch(root.src, series(reload));
   watch(ui.src, series(img_ui, reload));
   watch(gfx.src, series(img_gfx, reload));
 
