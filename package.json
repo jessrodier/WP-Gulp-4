@@ -1,0 +1,25 @@
+{
+  "name": "wp_gulp_4",
+  "version": "2.0.0",
+  "description": "Packages for your custom WP theme",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-connect-php": "latest",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "latest",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Jess Rodier",
+  "license": "ISC"
+}
